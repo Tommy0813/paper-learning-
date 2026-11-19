@@ -1,0 +1,2 @@
+# Install a local editable package and development tools.
+-e .[dev]

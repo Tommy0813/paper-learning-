@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Data: keep only the directory placeholders
+/data/**
+!/data/**/
+!/data/**/.gitkeep
+
+# Trained models and predictions: local by default
+/models/**
+!/models/**/
+!/models/**/.gitkeep
+
+# Local experiment outputs / large artifact directories
+/experiments/outputs/
+/reports/figures/*.png
+/reports/figures/*.jpg
+/reports/figures/*.jpeg
+/reports/figures/*.pdf
